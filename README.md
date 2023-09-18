@@ -1,6 +1,8 @@
 # Opinion Tree Parsing for Aspect-based Sentiment Analysis
 Code and data for Opinion Tree Parsing for Aspect-based Sentiment Analysis(ACL2023 Findings)
 
+Xiaoyi Bao, Xiaotong Jiang, Zhongqing Wang, Yue Zhang, and Guodong Zhou. 2023. Opinion Tree Parsing for Aspect-based Sentiment Analysis. In Findings of the Association for Computational Linguistics: ACL 2023, pages 7971–7984, Toronto, Canada. Association for Computational Linguistics.
+
 ## Requirement
     benepar
     transformers=4.23.1 
