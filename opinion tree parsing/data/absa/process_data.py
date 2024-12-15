@@ -76,8 +76,8 @@ def readfile(file):
         
         for a,asp,o,osp,s,c in zip(i[1],i[2],i[3],i[4],i[5],i[6]):
             
-            c="cate"
-            s="polarity"
+            # c="cate"
+            # s="polarity"
             if (a=="NULL" and o=="NULL")  or a=="" or o=="" :
                 quad_list_dual_miss.append([ [[a,[-2,-1],c]], [[o,[-1,-1],s]], [-2,-1] ])
                 left+=1
