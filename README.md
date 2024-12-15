@@ -3,13 +3,17 @@ Code and data for Opinion Tree Parsing for Aspect-based Sentiment Analysis(Findi
 
 Xiaoyi Bao, Xiaotong Jiang, Zhongqing Wang, Yue Zhang, and Guodong Zhou. 2023. Opinion Tree Parsing for Aspect-based Sentiment Analysis. In Findings of the Association for Computational Linguistics: ACL 2023, pages 7971–7984, Toronto, Canada. Association for Computational Linguistics.
 
-## Requirement
+## Environment
+    conda create -n OTP python=3.7.0
+    conda activate OTP
+    conda install -c conda-forge spacy
+
+## Requirement (Use pip install)
     benepar
     transformers=4.23.1 
-    scipy
-    torch=1.10.0
-    python==3.7.0
+    torch==1.10.0
     numpy==1.18.1 
+    pytokenizations
     tqdm
 ## Data preprocessing 
 
