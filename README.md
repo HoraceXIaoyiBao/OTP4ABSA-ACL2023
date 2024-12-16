@@ -20,9 +20,14 @@ Xiaoyi Bao, Xiaotong Jiang, Zhongqing Wang, Yue Zhang, and Guodong Zhou. 2023. O
     python ./data/absa/process_data.py
     
 
-## Train 
+## Train for Laptop domain
 
     python src/main.py train --use-pretrained --model-path-base ./model --batch-size 128 --pretrained-mode t5-base
+
+
+## Train for Restaurant domain 
+
+Modify the Line 711/713 in  [src.main.py](opinion_tree_parsing/src/main.py), to corresponding pathes to Restaurant files. 
     
     
 ## Inference once finished training
