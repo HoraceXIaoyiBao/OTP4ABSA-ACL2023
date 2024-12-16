@@ -27,7 +27,7 @@ Xiaoyi Bao, Xiaotong Jiang, Zhongqing Wang, Yue Zhang, and Guodong Zhou. 2023. O
 
 ## Train for Restaurant domain 
 
-Modify the Line 711/713 in  [src.main.py](opinion_tree_parsing/src/main.py), to corresponding pathes to Restaurant files. 
+Modify the Line 711/713 in src/main.py to corresponding pathes to Restaurant files. 
     
     
 ## Inference once finished training
