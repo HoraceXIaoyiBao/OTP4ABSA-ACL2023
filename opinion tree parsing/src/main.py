@@ -503,7 +503,7 @@ def run_train(args, hparams):
             "dev-fscore {} "
             "dev-elapsed {} "
             "total-elapsed {}".format(
-                dev_fscore,
+                quad_f1,
                 format_elapsed(dev_start_time),
                 format_elapsed(start_time),
             )
